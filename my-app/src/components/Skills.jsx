@@ -2,6 +2,7 @@ import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareCheck, faCode, faPalette, faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { faHtml5, faNode, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons'
 
 const frontEnd = ["ReactJS", "NextJs", "Tailwind"]
 const backEnd = ["NodeJS", "TypeScript", "JavaScript", "MongoDB", "Prisma", "PosgreSQL", "MySQL"]
@@ -9,7 +10,7 @@ const backEnd = ["NodeJS", "TypeScript", "JavaScript", "MongoDB", "Prisma", "Pos
 function Skills() {
     return (
         <div className='bg-gray-50 w-full flex justify-center' id='skills'>
-            <div className='w-11/12 px-5 py-10 lg:w-225 flex flex-col gap-10 bg-gray-50'>
+            <div className='w-11/12 px-5 py-10 lg:w-225 flex flex-col gap-10 bg-gray-50 relative'>
                 <div className='flex justify-center items-center gap-2'>
                     <h1 className='text-3xl font-semibold md:text-4xl'>
                         Skills <FontAwesomeIcon icon={faCode} className='text-red-500' />
