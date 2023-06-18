@@ -16,7 +16,7 @@ function Homex() {
                         Back-End Developer
                     </h1>
 
-                    <p className='text-lg text-gray-600 font-normal'>Hello, I&apos;m Kit Suphakit. I'm interested in <span className='text-blue-600 font-semibold'>Back-End Developer</span>  base in Thailand <FontAwesomeIcon icon={faPersonFalling} className='text-green-600' /></p>
+                    <p className='text-lg text-gray-600 font-normal'>Hello, I&apos;m Kit Suphakit. I&apos;m interested in <span className='text-blue-600 font-semibold'>Back-End Developer</span>  base in Thailand <FontAwesomeIcon icon={faPersonFalling} className='text-green-600' /></p>
 
                     <div className='flex gap-5 text-4xl justify-center transition-transform'>
                         <a href="https://www.facebook.com/kittspk/" target="_blank" rel="noopener noreferrer">
