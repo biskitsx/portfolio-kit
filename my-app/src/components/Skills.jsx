@@ -16,8 +16,8 @@ function Skills() {
                         Skills <FontAwesomeIcon icon={faCode} className='text-red-500' />
                     </h1>
                 </div>
-                <div className='grid grid-cols-1 place-items-center sm:grid-cols-2 gap-5 sm:gap-2 '>
-                    <div className='p-5 shadow-md bg-white rounded-lg h-full w-full sm:w-72 md:w-80 lg:w-96 relative'>
+                <div className='grid grid-cols-1 place-items-center sm:grid-cols-2 gap-5 '>
+                    <div className='p-5 shadow-md bg-white rounded-lg h-full w-full  md:w-80 lg:w-96 relative'>
                         <h4 className='text-center font-semibold mb-2 text-2xl lg:text-3xl'>Front-End</h4>
                         <div className='grid grid-cols-2 gap-2'>
                             {frontEnd.map((skill, i) => {
@@ -30,14 +30,14 @@ function Skills() {
                             })}
                         </div>
                     </div>
-                    <div className='p-5 shadow-md bg-white rounded-lg h-full w-full sm:w-72 md:w-80 lg:w-96'>
+                    <div className='p-5 shadow-md bg-white rounded-lg h-full w-full md:w-80 lg:w-96'>
                         <h4 className='text-center font-semibold mb-2 text-2xl lg:text-3xl'>Back-End</h4>
                         <div className='grid grid-cols-2 gap-2'>
                             {backEnd.map((skill, i) => {
                                 return (
                                     <div className='flex  items-center gap-2 pl-3' key={i}>
                                         <FontAwesomeIcon icon={faSquareCheck} className='text-green-600 h-5' />
-                                        <p className='text-lg lg:text-xl text-gray-700'>{skill}</p>
+                                        <p className='text-lg lg:text-xl text-gray-700 font-medium'>{skill}</p>
                                     </div>
                                 )
                             })}

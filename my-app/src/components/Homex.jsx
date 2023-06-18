@@ -28,7 +28,7 @@ function Homex() {
                         <a href="https://github.com/biskitsx" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub} className='hover:text-purple-800 hover:scale-110 ' />
                         </a>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/suphakit-songsuwong-99116b27a/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faLinkedin} className='hover:text-blue-600 hover:scale-110 ' />
                         </a>
                     </div>

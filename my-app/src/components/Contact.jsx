@@ -13,26 +13,22 @@ const contact = [
         name: "Telephone",
         val: "098-254-6225"
     }
-
-
 ]
 
 
 function Contact() {
     return (
-        <div className='bg-gray-50 w-full flex justify-center' id='contact'>
-            <div className='w-11/12 px-5 py-10 lg:w-225 flex flex-col gap-10 bg-gray-50'>
+        <div className=' w-full flex justify-center' id='contact'>
+            <div className='w-11/12 px-5 py-10 lg:w-225 flex flex-col gap-10 '>
                 <div className='flex justify-center items-center gap-2'>
                     <h1 className='text-3xl font-semibold md:text-4xl'>
                         Contact <FontAwesomeIcon icon={faIdCard} className='text-green-600' />
                     </h1>
                 </div>
-                <div className='w-full flex-col flex gap-3 items-center sm:flex-row sm:justify-around'>
-
-
-                    {contact.map((item) => {
+                <div className='w-full flex-col flex gap-5 items-center sm:flex-row sm:justify-around'>
+                    {contact.map((item, i) => {
                         return (
-                            <div className='flex  items-center gap-2 w-60'>
+                            <div className='flex  items-center gap-2 w-60' key={i}>
                                 <div className='rounded-full shadow-md p-3 grid place-items-center '>
                                     <FontAwesomeIcon icon={item.icon} className='text-green-600 text-2xl' />
                                 </div>

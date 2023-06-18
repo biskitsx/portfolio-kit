@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div className='w-full bg-gray-800 px-10 py-10  grid place-items-center'>
             <div className='w-11/12 lg:w-225'>
-                <p className='text-white font-semibold uppercase tracking-wide text-center'>Copyright 2023</p>
+                <p className='text-white font-semibold uppercase tracking-wide text-center'>&copy; Copyright {new Date().getFullYear()}</p>
             </div>
         </div>
     )
