@@ -26,12 +26,12 @@ function Project() {
                         <p className='text-md font-light text-gray-600 text-justify '>
                             This web application is a basic social media application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
                         </p>
-                        <div className='flex flex-row items-center text-zinc-700'>
-                            <p className='text-blue-500'>
+                        <div className='flex flex-row items-center text-zinc-700 '>
+                            <p className=''>
                                 see more :
                             </p>
                             <a href="https://github.com/biskitsx/social-appx" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faGithub} className='hover:text-purple-800 hover:scale-110 ml-2 bg-white rounded-md shadow-md p-1 text-zinc-700 ' />
+                                <FontAwesomeIcon icon={faGithub} className='hover:text-purple-800 hover:scale-110 ml-2 bg-white rounded-md shadow-md p-1 text-zinc-700 text-xl' />
                             </a>
                         </div>
                         <div className='flex'>

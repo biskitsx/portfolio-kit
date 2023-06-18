@@ -18,7 +18,7 @@ function Skills() {
                 </div>
                 <div className='grid grid-cols-1 place-items-center sm:grid-cols-2 gap-5 '>
                     <div className='p-5 shadow-md bg-white rounded-lg h-full w-full  md:w-80 lg:w-96 relative'>
-                        <h4 className='text-center font-semibold mb-2 text-2xl lg:text-3xl'>Front-End</h4>
+                        <h4 className='text-center font-semibold mb-2 text-xl lg:text-2xl text-zinc-800'>Front-End</h4>
                         <div className='grid grid-cols-2 gap-2'>
                             {frontEnd.map((skill, i) => {
                                 return (
@@ -31,7 +31,7 @@ function Skills() {
                         </div>
                     </div>
                     <div className='p-5 shadow-md bg-white rounded-lg h-full w-full md:w-80 lg:w-96'>
-                        <h4 className='text-center font-semibold mb-2 text-2xl lg:text-3xl'>Back-End</h4>
+                        <h4 className='text-center font-semibold mb-2 text-xl lg:text-2xl text-zinc-800'>Back-End</h4>
                         <div className='grid grid-cols-2 gap-2'>
                             {backEnd.map((skill, i) => {
                                 return (

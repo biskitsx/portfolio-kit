@@ -19,7 +19,7 @@ function Navbar() {
                 <scroll.Link to="home" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105 hidden sm:block'>Home</scroll.Link>
                 <scroll.Link to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105 hidden sm:block'>Skills</scroll.Link>
                 <scroll.Link to="about" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105 hidden sm:block'>About</scroll.Link>
-                {/* <scroll.Link to="project" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105 hidden sm:block'>Project</scroll.Link> */}
+                <scroll.Link to="project" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105 hidden sm:block'>Project</scroll.Link>
                 <scroll.Link to="contact" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105 hidden sm:block'>Contact</scroll.Link>
                 <scroll.Link to="home" spy={true} smooth={true} offset={50} duration={500} className='cursor-pointer hover:scale-105  sm:hidden'><FontAwesomeIcon icon={faHouse} /></scroll.Link>
 
