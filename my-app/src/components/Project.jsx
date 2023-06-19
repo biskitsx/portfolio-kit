@@ -18,7 +18,7 @@ function Project() {
                         {/* <video width="100%" height="100%" loop={true} muted={true} autoPlay={true} alt='project' className='rounded-md shadow-md'>
                             <source src="/social-media.mov" />
                         </video> */}
-                        <ReactPlayer url="/social-media.mov" muted={true} loop={true} playing={true} className='shadow-md rounded-md overflow-hidden' width='100%' height='100%' controls={false} />
+                        <ReactPlayer url="https://res.cloudinary.com/dpbro2ayv/video/upload/v1687145206/social-media_u2gcrb.mov" muted={true} loop={true} playing={true} className='shadow-md rounded-md overflow-hidden' width='100%' height='100%' controls={false} />
                     </div>
                     <div className='flex flex-col gap-4 '>
                         <h4 className='text-2xl font-semibold text-red-500 '>Social media app
