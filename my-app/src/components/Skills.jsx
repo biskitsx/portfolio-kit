@@ -60,10 +60,9 @@ function Skills() {
                     </div>
                 </div>
                 <div className='flex justify-around flex-wrap gap-3'>
-                    {logo.map((item) => {
-                        console.log(item)
+                    {logo.map((item, index) => {
                         return (
-                            <div className='rounded-full shadow-md bg-white p-2 hover:scale-105 transition'>
+                            <div className='rounded-full shadow-md bg-white p-2 hover:scale-105 transition' key={index}>
                                 <Image src={`https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/${item.src}`} alt={item.title} width={30} height={30} className='' />
                             </div>)
                     })}
