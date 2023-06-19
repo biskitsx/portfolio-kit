@@ -15,7 +15,7 @@ function Navbar() {
                 </h2>
             </Link>
 
-            <nav className='flex gap-3'>
+            <nav className='flex gap-4 font-medium'>
                 <scroll.Link to="home" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105 hidden sm:block'>Home</scroll.Link>
                 <scroll.Link to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105 hidden sm:block'>Skills</scroll.Link>
                 <scroll.Link to="about" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105 hidden sm:block'>About</scroll.Link>
